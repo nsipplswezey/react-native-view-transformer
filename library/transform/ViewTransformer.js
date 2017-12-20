@@ -417,41 +417,41 @@ export default class ViewTransformer extends React.Component {
   }
 }
 
-ViewTransformer.propTypes = {
-  /**
-   * Use false to disable transform. Default is true.
-   */
-  enableTransform: React.PropTypes.bool,
+// ViewTransformer.propTypes = {
+//   /**
+//    * Use false to disable transform. Default is true.
+//    */
+//   enableTransform: React.PropTypes.bool,
 
-  /**
-   * Use false to disable scaling. Default is true.
-   */
-  enableScale: React.PropTypes.bool,
+//   /**
+//    * Use false to disable scaling. Default is true.
+//    */
+//   enableScale: React.PropTypes.bool,
 
-  /**
-   * Use false to disable translateX/translateY. Default is true.
-   */
-  enableTranslate: React.PropTypes.bool,
+//   /**
+//    * Use false to disable translateX/translateY. Default is true.
+//    */
+//   enableTranslate: React.PropTypes.bool,
 
-  /**
-   * Default is 20
-   */
-  maxOverScrollDistance: React.PropTypes.number,
+//   /**
+//    * Default is 20
+//    */
+//   maxOverScrollDistance: React.PropTypes.number,
 
-  maxScale: React.PropTypes.number,
-  contentAspectRatio: React.PropTypes.number,
+//   maxScale: React.PropTypes.number,
+//   contentAspectRatio: React.PropTypes.number,
 
-  /**
-   * Use true to enable resistance effect on over pulling. Default is false.
-   */
-  enableResistance: React.PropTypes.bool,
+//   /**
+//    * Use true to enable resistance effect on over pulling. Default is false.
+//    */
+//   enableResistance: React.PropTypes.bool,
 
-  onViewTransformed: React.PropTypes.func,
+//   onViewTransformed: React.PropTypes.func,
 
-  onTransformGestureReleased: React.PropTypes.func,
+//   onTransformGestureReleased: React.PropTypes.func,
 
-  onSingleTapConfirmed: React.PropTypes.func
-};
+//   onSingleTapConfirmed: React.PropTypes.func
+// };
 ViewTransformer.defaultProps = {
   maxOverScrollDistance: 20,
   enableScale: true,
